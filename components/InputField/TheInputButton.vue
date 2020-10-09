@@ -28,11 +28,17 @@ export default {
   justify-content: center;
   font-size: $fs-3;
   color: $secondary;
+  transition: all 0.1s ease;
 }
 
 .btn svg {
   display: block;
   width: 20px;
   fill: currentColor;
+}
+
+.btn:active {
+  transform: scale(0.9);
+  transition: all 0.1s ease;
 }
 </style>

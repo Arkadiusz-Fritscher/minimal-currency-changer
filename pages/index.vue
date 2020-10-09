@@ -1,7 +1,7 @@
 <template>
   <div class="app-wrapper">
     <div class="container" :style="{ height: `${getRealVh}px` }">
-      <InputValue v-if="isInputFieldOpen" />
+      <InputValue />
       <div class="currency">
         <TheCurrencyCard position="from" :value="userCurrencys.from" />
       </div>
